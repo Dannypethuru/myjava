@@ -15,13 +15,27 @@ activa.price=80000;
 unicorn.price=125000;
 shine.discount=5.0f;
 activa.discount=1.0f;
+activa.buy(125000);
+shine.buy(150000);
+offer();
+Honda.offer();
+shine.offer();
 System.out.println(shine.price);
 System.out.println(Honda.owner_name);
 System.out.println(unicorn.owner_name);
 System.out.println(owner_name);
 
 }
+void buy(int amount)
 
-
+{
+int disc=1000; 
+System.out.println("Buying Honda bike for Rs"+amount);
+//System.out.println(amount);
+}
+static void offer()
+{
+System.out.println("10% Discount");
+}
 
 }
