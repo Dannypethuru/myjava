@@ -17,4 +17,4 @@ int calculate( int a)
 {
 return a*a;
 }
-}
+
